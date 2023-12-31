@@ -1,0 +1,1 @@
+if !audio_is_playing(snd_powerjumpscare) { instance_destroy() }

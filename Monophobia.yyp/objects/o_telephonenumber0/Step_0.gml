@@ -1,0 +1,1 @@
+if global.telephonecalling = 1 { image_blend = c_gray } else { image_blend = c_white }

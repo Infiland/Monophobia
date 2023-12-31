@@ -1,0 +1,1 @@
+if global.carjumpscare = 1 { instance_destroy() }
