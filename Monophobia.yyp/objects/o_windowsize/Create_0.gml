@@ -1,4 +1,6 @@
 window_set_size(640,640)
+display_set_gui_size(640,640)
+display_set_gui_maximise(10,10);
 instance_destroy()
 global.carjumpscare = 0
 global.roadchase = 0
