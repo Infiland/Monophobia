@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "Murderer",
-    "path": "folders/Sprites/Murderer.yy",
+    "path": "folders/Sprites/Enemies/Murderer.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,10 +54,10 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5226603b-790e-4eae-8e1f-2cbec7735513","path":"sprites/s_murdereridle/s_murdereridle.yy",},},},"Disabled":false,"id":"5da54498-8503-416c-abc2-6d9b4c6daf3a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5226603b-790e-4eae-8e1f-2cbec7735513","path":"sprites/s_murdereridle/s_murdereridle.yy",},},},"Disabled":false,"id":"f5b21899-0286-427f-a554-b2447e5bdc6d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": null,
+    "visibleRange": {"x":0.0,"y":0.0,},
     "volume": 1.0,
     "xorigin": 0,
     "yorigin": 0,

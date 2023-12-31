@@ -10,10 +10,10 @@
   "bitRate": 128,
   "compression": 1,
   "conversionMode": 0,
-  "duration": 0.0,
+  "duration": 30.6187,
   "parent": {
     "name": "Talking to girl",
-    "path": "folders/Sounds/Talking to girl.yy",
+    "path": "folders/Sounds/Sounds/Talking to girl.yy",
   },
   "preload": false,
   "sampleRate": 44100,

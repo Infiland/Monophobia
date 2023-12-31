@@ -10,10 +10,10 @@
   "bitRate": 128,
   "compression": 1,
   "conversionMode": 0,
-  "duration": 0.0,
+  "duration": 8.96,
   "parent": {
     "name": "Telephone Calls",
-    "path": "folders/Sounds/Telephone Calls.yy",
+    "path": "folders/Sounds/Sounds/Telephone Calls.yy",
   },
   "preload": false,
   "sampleRate": 44100,

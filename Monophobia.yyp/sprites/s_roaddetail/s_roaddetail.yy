@@ -55,11 +55,11 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8967e79c-7674-494b-8686-3528b8b278a4","path":"sprites/s_roaddetail/s_roaddetail.yy",},},},"Disabled":false,"id":"12df22e1-e29c-4e22-b413-334e24f9820d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f2e9845a-0afd-44cd-bea0-bf37b06cb2c1","path":"sprites/s_roaddetail/s_roaddetail.yy",},},},"Disabled":false,"id":"066e1e33-431f-486d-b49f-d45ee3d4b7a3","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8967e79c-7674-494b-8686-3528b8b278a4","path":"sprites/s_roaddetail/s_roaddetail.yy",},},},"Disabled":false,"id":"d46f1c38-2ff5-4db3-a015-41b55072ef15","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f2e9845a-0afd-44cd-bea0-bf37b06cb2c1","path":"sprites/s_roaddetail/s_roaddetail.yy",},},},"Disabled":false,"id":"82c17f21-ffb0-409c-abc0-27da5850c2a3","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": null,
+    "visibleRange": {"x":0.0,"y":0.0,},
     "volume": 1.0,
     "xorigin": 0,
     "yorigin": 0,

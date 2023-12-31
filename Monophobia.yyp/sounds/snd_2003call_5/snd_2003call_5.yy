@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 1,
   "conversionMode": 0,
-  "duration": 0.0,
+  "duration": 63.5559,
   "parent": {
     "name": "devcalls",
     "path": "folders/Sounds/Telephone Calls/devcalls.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_2003call_5",
+  "soundFile": "snd_2003call_5.mp3",
   "type": 1,
-  "volume": 0.8,
+  "volume": 1.0,
 }

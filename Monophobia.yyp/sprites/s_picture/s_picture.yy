@@ -55,11 +55,11 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"42777ad3-c1ed-4fe6-b10e-f6dfcbc28e6d","path":"sprites/s_picture/s_picture.yy",},},},"Disabled":false,"id":"60be4263-3eb2-44bb-a3b3-93a4f3472e5a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"27d8f75e-684b-4dc3-870a-9962eb5e9235","path":"sprites/s_picture/s_picture.yy",},},},"Disabled":false,"id":"ed7a4c9a-7ced-4eb3-9c9b-3cdc98e04924","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"42777ad3-c1ed-4fe6-b10e-f6dfcbc28e6d","path":"sprites/s_picture/s_picture.yy",},},},"Disabled":false,"id":"d2620ed6-6973-4467-821a-46eec5fb72d6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"27d8f75e-684b-4dc3-870a-9962eb5e9235","path":"sprites/s_picture/s_picture.yy",},},},"Disabled":false,"id":"25cbb2e7-b5e7-434e-8dab-f701cc7425be","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": null,
+    "visibleRange": {"x":0.0,"y":0.0,},
     "volume": 1.0,
     "xorigin": 0,
     "yorigin": 0,

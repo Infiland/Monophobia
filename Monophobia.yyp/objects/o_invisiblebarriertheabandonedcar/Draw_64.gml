@@ -4,9 +4,9 @@ if o_player.sprite_index != s_playerdead {
 if place_meeting(x,y,o_player) {
 if room = r_road {
 if global.roadchase = 0 {
-draw_text(2,5,"I NEED KEY")
+draw_text(2,5,"I NEED A KEY")
 } else { 
-draw_text(3,3,"[ENTER]")
+draw_text(3,3,"["+global.textenter+"]")
 if keyboard_check_pressed(vk_enter) {
 room_goto(r_cityintro)
 audio_stop_all()
@@ -18,11 +18,11 @@ audio_play_sound(m_gorwancity,0,1)
 if room = r_city { 
 	if house = 0 {
 	if global.gas = 0 { draw_text(2,5,"OUT OF FUEL") } else {
-	draw_text(2,3,"DRIVE? [ENTER]")
+	draw_text(2,3,"DRIVE? ["+global.textenter+"]")
 	if keyboard_check_pressed(vk_enter) {
 	audio_stop_all()
-	global.playerx = 122
-	global.playery = 30
+	global.playerx = 43
+	global.playery = 67
 	room_goto(r_girlhouseintro)
 	}
 	}}
@@ -80,7 +80,7 @@ if house = 0 {
 if house = 1 {
 if global.gas = 0 {
 if global.money = 0 { draw_text(2,5,"NO MONEY") } else {
-draw_text(3,3,"BUY? [ENTER]")
+draw_text(3,3,"BUY? ["+global.textenter+"]")
 if keyboard_check_pressed(vk_enter) {
 global.gas = 1
 }}
@@ -95,6 +95,41 @@ if room = r_endlessroad {
 	audio_stop_all()
 	audio_play_sound(m_gorwancity,0,1)
 }
+
+if room = r_girlhouseoutside {
+draw_text(3,3,""+global.textenter+"?")
+if keyboard_check_pressed(vk_enter) {
+if house = 0 {
+global.playerx = 122
+global.playery = 30
+	room_goto(r_girlhouse)
+} else {
+global.playerx = 256
+global.playery = 53
+room_goto(r_thewellintro)
+global.ending = 4
+audio_play_sound(m_thewell,0,1)
+}}
+}
+
+if room = r_thewell {
+if house = 0 {
+draw_text(3,3,"OUT OF FUEL")
+} else {
+draw_text(3,3,"JUMP IN?\n["+global.textenter+"]")	
+if keyboard_check_pressed(vk_enter) {
+audio_stop_all()
+audio_play_sound(snd_carstop,0,0)
+room_goto(r_endingroom)
+}}
+}
+
+
+
+if room = r_road2 {
+if instance_exists(o_enemyroad){
+draw_text(2,2,"HIDE BEHIND\nTREES")
+}}
 
 }
 }

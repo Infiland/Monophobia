@@ -55,11 +55,11 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4dbf344d-9767-4222-bb07-30e59041ae20","path":"sprites/s_gassign247/s_gassign247.yy",},},},"Disabled":false,"id":"c891c728-14d3-40f3-88a0-f0b6f1249fbd","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"76b8bfeb-c8c3-4628-aa6e-06f80525093b","path":"sprites/s_gassign247/s_gassign247.yy",},},},"Disabled":false,"id":"e918495d-1205-4da6-9e62-902bc728c3f5","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4dbf344d-9767-4222-bb07-30e59041ae20","path":"sprites/s_gassign247/s_gassign247.yy",},},},"Disabled":false,"id":"43a6e88f-66d4-4aa2-8105-497613e04028","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"76b8bfeb-c8c3-4628-aa6e-06f80525093b","path":"sprites/s_gassign247/s_gassign247.yy",},},},"Disabled":false,"id":"d8343d6a-58c6-49a1-9734-5620bbfe3844","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": null,
+    "visibleRange": {"x":0.0,"y":0.0,},
     "volume": 1.0,
     "xorigin": 0,
     "yorigin": 0,

@@ -2,33 +2,43 @@ key_right = keyboard_check(vk_right) || keyboard_check(ord("D"))
 key_left = keyboard_check(vk_left) || keyboard_check(ord("A"))
 key_up = keyboard_check(vk_up) || keyboard_check(ord("W"))
 key_down = keyboard_check(vk_down) || keyboard_check(ord("S"))
+
+
 if sprite_index != s_playerdead {
-if !key_right and !key_left and !key_up and !key_down {
-sprite_index = s_playeridle
-}
+if !key_right and !key_left and !key_up and !key_down { sprite_index = s_playeridle }
+
 if global.talktogirl = 0 {
 if !instance_exists(o_car64) {
-if key_right { x += playerspeed
-sprite_index = s_playerrunning
-	}
-if key_left { x -= playerspeed
-sprite_index = s_playerrunning
-	}
-if key_up { y -= playerspeed
-sprite_index = s_playerrunningup
-	}
-if key_down { y += playerspeed
-sprite_index = s_playerrunningup
-	}
-	} else { y = lerp(y,31,0.1)
+scr_moving()
+}
+} else { y = lerp(y,31,0.1)
 	x = lerp(x,31,0.1)
-}}
+}
+if key_right or key_left { sprite_index = s_playerrunning }
+if key_up or key_down { sprite_index = s_playerrunningup }
 }
 
 if room = r_endlessroad {
-if x > 128 {
+var lay_id = layer_get_id("Backgrounds_1");
+var back_id = layer_background_get_id(lay_id);
+layer_background_alpha(back_id,((endlessroaddistance)/100)*3)
+if x > 192 {
 x -= 64	
-}}
+endlessroaddistance += 1
+if endlessroaddistance = 11 {
+	audio_stop_all()
+	global.ending = 3
+	audio_play_sound(m_DRINK,0,1)
+	room_goto(r_theeyeroomintro)
+	}
+}
+if endlessroaddistance > 0 {
+if x < 64 {
+endlessroaddistance -= 1
+x += 64
+}
+}
+}
 
 if room != r_tutorial {
 if x > room_width {
@@ -44,16 +54,6 @@ if x < 0 {
 scr_collision()	
 }
 }
-
-if place_meeting(x,y,o_car) {
-scr_collision()
-	}
-if place_meeting(x,y,o_invisiblebarrier) {
-scr_collision()
-	}
-if place_meeting(x,y,o_tree) {
-scr_collision()
-	}
 	
 global.hiding = 0
 if instance_exists(o_tree) {
@@ -84,4 +84,8 @@ if global.ending = 1 {
 room_goto(r_endingroom)
 }
 }
+}
+
+if !keyboard_check(ord("I")) {
+inventoryalpha -= 1.2
 }

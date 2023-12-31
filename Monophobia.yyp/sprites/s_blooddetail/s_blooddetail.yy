@@ -55,11 +55,11 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8f24afdd-8caf-4590-9765-c22b2ec7a22a","path":"sprites/s_blooddetail/s_blooddetail.yy",},},},"Disabled":false,"id":"af81f479-bdc7-44b9-a324-05062522bca1","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"435410d9-bda9-4fc2-abe2-f8348b86afcc","path":"sprites/s_blooddetail/s_blooddetail.yy",},},},"Disabled":false,"id":"0d700334-29ec-4650-8ccf-f96e0a19022e","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8f24afdd-8caf-4590-9765-c22b2ec7a22a","path":"sprites/s_blooddetail/s_blooddetail.yy",},},},"Disabled":false,"id":"6891ebd4-b71e-46d1-9a98-18ee5e927fea","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"435410d9-bda9-4fc2-abe2-f8348b86afcc","path":"sprites/s_blooddetail/s_blooddetail.yy",},},},"Disabled":false,"id":"46f821a0-2a8f-414b-8edb-d918f71066fc","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": null,
+    "visibleRange": {"x":0.0,"y":0.0,},
     "volume": 1.0,
     "xorigin": 0,
     "yorigin": 0,

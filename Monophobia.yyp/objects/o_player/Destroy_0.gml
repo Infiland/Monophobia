@@ -1,0 +1,6 @@
+instance_destroy(o_androidright)
+instance_destroy(o_androidleft)
+instance_destroy(o_androiddown)
+instance_destroy(o_androidup)
+instance_destroy(o_androidenter)
+instance_destroy(o_androidinventory)

@@ -1,6 +1,5 @@
 if room = r_logo {
-room_goto(r_tutorial)
-audio_play_sound(m_silentcalling,0,1)
+room_goto(r_mainmenu)
 }
 if room = r_tutorial {
 if global.checkpoint = 0 {
@@ -23,7 +22,7 @@ room_goto(r_city)
 }
 
 if room = r_telephonebooth {
-global.ending = 3
+global.ending = 6
 room_goto(r_endingroom)	
 }
 

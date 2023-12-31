@@ -3,7 +3,7 @@ if global.hiding = 0 {
 if distance_to_object(o_player) < (160 - global.deaths1*3) {
 direction = point_direction(x,y,o_player.x,o_player.y)
 if global.deaths1 < 20 {
-motion_set(direction,0.38 - (global.deaths1/60) )
+motion_set(direction,0.3 - (global.deaths1/30) )
 }}
 if global.deaths1 > 19 {
 motion_set(direction,0.1)

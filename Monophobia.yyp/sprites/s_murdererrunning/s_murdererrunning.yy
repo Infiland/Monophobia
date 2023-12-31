@@ -27,7 +27,7 @@
   "origin": 9,
   "parent": {
     "name": "Murderer",
-    "path": "folders/Sprites/Murderer.yy",
+    "path": "folders/Sprites/Enemies/Murderer.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -55,11 +55,11 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9941150b-f800-46cf-a38f-33776cd8e337","path":"sprites/s_murdererrunning/s_murdererrunning.yy",},},},"Disabled":false,"id":"98956685-5e7c-46ea-b46c-d9f3e51b1b1e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4012eea2-ddfa-4791-b76a-f70f43b0a0a1","path":"sprites/s_murdererrunning/s_murdererrunning.yy",},},},"Disabled":false,"id":"b071eae9-98d6-480a-903e-e3c8219626a1","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9941150b-f800-46cf-a38f-33776cd8e337","path":"sprites/s_murdererrunning/s_murdererrunning.yy",},},},"Disabled":false,"id":"d805e72c-e3ef-41a1-891e-a72511744372","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4012eea2-ddfa-4791-b76a-f70f43b0a0a1","path":"sprites/s_murdererrunning/s_murdererrunning.yy",},},},"Disabled":false,"id":"ceeea84d-107d-46b1-a42c-8a6128bab32c","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": null,
+    "visibleRange": {"x":0.0,"y":0.0,},
     "volume": 1.0,
     "xorigin": 1,
     "yorigin": 0,

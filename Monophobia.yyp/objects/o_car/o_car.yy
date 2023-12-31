@@ -12,7 +12,10 @@
     "name": "Car Jumpscare",
     "path": "folders/Objects/Car Jumpscare.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "o_invisiblebarrier",
+    "path": "objects/o_invisiblebarrier/o_invisiblebarrier.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

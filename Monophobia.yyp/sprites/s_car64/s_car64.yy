@@ -55,11 +55,11 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"55d5542a-c1f7-44d5-83f6-6ea89db9a806","path":"sprites/s_car64/s_car64.yy",},},},"Disabled":false,"id":"51af467c-0e98-41ed-b6d9-72bada3f62a6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ef95c9a9-3d36-4af2-95f0-1a9b7276d139","path":"sprites/s_car64/s_car64.yy",},},},"Disabled":false,"id":"38d29f9e-01d8-44be-90f2-4d00d92c9c53","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"55d5542a-c1f7-44d5-83f6-6ea89db9a806","path":"sprites/s_car64/s_car64.yy",},},},"Disabled":false,"id":"94c4f873-3adc-4334-8311-66478ad67376","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ef95c9a9-3d36-4af2-95f0-1a9b7276d139","path":"sprites/s_car64/s_car64.yy",},},},"Disabled":false,"id":"60d889ae-28a5-4666-8892-3a888035a72a","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": null,
+    "visibleRange": {"x":0.0,"y":0.0,},
     "volume": 1.0,
     "xorigin": 31,
     "yorigin": 41,

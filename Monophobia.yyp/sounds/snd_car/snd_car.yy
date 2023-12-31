@@ -10,14 +10,14 @@
   "bitRate": 24,
   "compression": 1,
   "conversionMode": 0,
-  "duration": 0.0,
+  "duration": 1.911939,
   "parent": {
     "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "path": "folders/Sounds/Sounds.yy",
   },
   "preload": false,
   "sampleRate": 11025,
-  "soundFile": "snd_car",
+  "soundFile": "snd_car.mp3",
   "type": 1,
   "volume": 1.0,
 }

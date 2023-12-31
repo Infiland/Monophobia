@@ -23,5 +23,5 @@ global.gas = 0
 global.ending = 0
 global.dialgirl = 0
 global.talktogirl = 0
-
 audio_master_gain(1)
+alarm[0] = 1

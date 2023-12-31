@@ -55,11 +55,11 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e80f4c91-0f8b-4cb7-b740-bdf856575a9c","path":"sprites/s_someonerunning/s_someonerunning.yy",},},},"Disabled":false,"id":"d5951127-b1bb-4cb4-912c-88600a43730b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3bdf5a52-2483-4f8c-99fd-b286760f6cca","path":"sprites/s_someonerunning/s_someonerunning.yy",},},},"Disabled":false,"id":"8ec0c81b-bafd-4647-aa36-efb837c59282","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e80f4c91-0f8b-4cb7-b740-bdf856575a9c","path":"sprites/s_someonerunning/s_someonerunning.yy",},},},"Disabled":false,"id":"4d5d8f8d-9c9a-4456-bade-8eac8ce8de47","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3bdf5a52-2483-4f8c-99fd-b286760f6cca","path":"sprites/s_someonerunning/s_someonerunning.yy",},},},"Disabled":false,"id":"670b3f24-d5b2-4cd3-b6a6-42c1282807eb","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": null,
+    "visibleRange": {"x":0.0,"y":0.0,},
     "volume": 1.0,
     "xorigin": 1,
     "yorigin": 0,

@@ -1,3 +1,4 @@
+if global.hiding = 0 {
 if deadtimer = 100 {
 audio_stop_all()
 global.deaths1 += 1
@@ -12,3 +13,4 @@ global.telephonenumber[0] = ""
 global.telephonenumber[1] = ""
 global.telephonenumber[2] = ""
 global.telephonenumber[3] = ""
+}
