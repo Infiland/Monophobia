@@ -126,6 +126,7 @@
     {"name":"m_wind","order":1,"path":"sounds/m_wind/m_wind.yy",},
     {"name":"m_chasescene","order":2,"path":"sounds/m_chasescene/m_chasescene.yy",},
     {"name":"snd_carstop","order":2,"path":"sounds/snd_carstop/snd_carstop.yy",},
+    {"name":"snd_1216call","order":9,"path":"sounds/snd_1216call/snd_1216call.yy",},
     {"name":"m_gorwancity","order":3,"path":"sounds/m_gorwancity/m_gorwancity.yy",},
     {"name":"m_welcomehome","order":4,"path":"sounds/m_welcomehome/m_welcomehome.yy",},
     {"name":"m_theendoftheroad","order":5,"path":"sounds/m_theendoftheroad/m_theendoftheroad.yy",},

@@ -52,6 +52,13 @@ audio_play_sound(snd_0485call,0,0)
 powermaster = 1
 }}}}
 
+if global.telephonenumber[0] = "1" {
+if global.telephonenumber[1] = "2" {
+if global.telephonenumber[2] = "1" {
+if global.telephonenumber[3] = "6" {
+audio_play_sound(snd_1216call,0,0)
+}}}}
+
 }
 if !audio_is_playing(snd_6969call) {
 audio_play_sound(snd_ring,0,0)

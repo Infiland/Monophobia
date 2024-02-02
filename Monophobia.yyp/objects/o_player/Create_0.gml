@@ -8,6 +8,10 @@ x = global.playerx
 y= global.playery
 }
 
+if !instance_exists(o_camera) {
+instance_create_depth(x,y,-10,o_camera)	
+}
+
 if os_type = os_android {
 instance_create_depth(12,52,-100,o_androidright)
 instance_create_depth(-16,52,-100,o_androidleft)

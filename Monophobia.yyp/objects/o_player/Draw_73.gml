@@ -2,7 +2,7 @@ if global.talktogirl = 0 {
 if room = r_tutorial {
 draw_set_font(fnt_pixel)
 if global.checkpoint = 0 {
-if global.deaths1 > 1 { draw_text(2,2,"HIDE BEHIND\nTREES") }	
+if global.deaths1 > 1 { draw_text(2+(o_camera.x-32),2+(o_camera.y-32),"HIDE BEHIND\nTREES") }	
 }
 if global.checkpoint = 1 {
 if global.deaths2 > 2 { draw_text(2,2,"STAY ON ROAD") }	
@@ -10,7 +10,7 @@ if global.deaths2 > 2 { draw_text(2,2,"STAY ON ROAD") }
 }
 if global.hiding = 1 {
 if instance_place(x,y,o_enemyroad) {
-draw_text(3,3,"DON'T MOVE")
+draw_text(3+(o_camera.x-32),3+(o_camera.y-32),"DON'T MOVE")
 }}
 
 if sprite_index != s_playerdead {
@@ -24,7 +24,7 @@ if global.checkpoint = 0 {
 if global.flower = 0 {
 if global.money = 0 {
 if global.gas = 0 {
-draw_text(2,54,"NO ITEMS")
+draw_text(2+(o_camera.x-32),54+(o_camera.y-32),"NO ITEMS")
 }}}}}}
 if global.roadchase = 1 or global.checkpoint = 1 {
 draw_sprite(s_key,0,3,58)

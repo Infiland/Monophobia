@@ -1,5 +1,5 @@
 randomize()
-chanceforcutscene = irandom_range(1,5)
+chanceforcutscene = 5
 redicon = irandom_range(1,666)
 if redicon = 666 { image_blend = c_red }
 if room = r_startinggame {

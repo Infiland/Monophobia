@@ -5,7 +5,7 @@ image_blend = c_gray
 if global.telephonecalling = 1 { 
 	image_blend = c_gray 
 
-if !audio_is_playing(snd_ring) and !audio_is_playing(snd_6969call) and !audio_is_playing(snd_4829call) and !audio_is_playing(snd_911call) and !audio_is_playing(snd_2003call_1) and !audio_is_playing(snd_2003call_2) and !audio_is_playing(snd_2003call_3) and !audio_is_playing(snd_2003call_4) and !audio_is_playing(snd_2003call_5) and !audio_is_playing(snd_7129call) and !audio_is_playing(snd_0485call) {
+if !audio_is_playing(snd_ring) && !audio_is_playing(snd_6969call) && !audio_is_playing(snd_4829call) && !audio_is_playing(snd_911call) && !audio_is_playing(snd_2003call_1) && !audio_is_playing(snd_2003call_2) && !audio_is_playing(snd_2003call_3) && !audio_is_playing(snd_2003call_4) && !audio_is_playing(snd_2003call_5) && !audio_is_playing(snd_7129call) && !audio_is_playing(snd_0485call) && !audio_is_playing(snd_1216call) {
 image_blend = c_white
 global.telephonecalling = 0
 audio_sound_gain(m_gorwancity,0.5,3000)

@@ -170,6 +170,7 @@
     {"id":{"name":"m_wind","path":"sounds/m_wind/m_wind.yy",},},
     {"id":{"name":"m_chasescene","path":"sounds/m_chasescene/m_chasescene.yy",},},
     {"id":{"name":"snd_carstop","path":"sounds/snd_carstop/snd_carstop.yy",},},
+    {"id":{"name":"snd_1216call","path":"sounds/snd_1216call/snd_1216call.yy",},},
     {"id":{"name":"m_gorwancity","path":"sounds/m_gorwancity/m_gorwancity.yy",},},
     {"id":{"name":"m_welcomehome","path":"sounds/m_welcomehome/m_welcomehome.yy",},},
     {"id":{"name":"m_theendoftheroad","path":"sounds/m_theendoftheroad/m_theendoftheroad.yy",},},

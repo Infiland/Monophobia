@@ -1,3 +1,4 @@
+if !instance_exists(follow) { exit }
 if (follow != noone) {
 x = follow.x
 y = follow.y
