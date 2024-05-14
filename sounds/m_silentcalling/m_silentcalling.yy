@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"m_silentcalling",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":192,
+  "compression":1,
+  "conversionMode":0,
+  "duration":14.811425,
+  "name":"m_silentcalling",
+  "parent":{
+    "name":"Music",
+    "path":"folders/Sounds/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"m_silentcalling",
+  "type":1,
+  "volume":0.5,
+}

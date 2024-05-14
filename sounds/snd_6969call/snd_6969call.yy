@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_6969call",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":192,
+  "compression":1,
+  "conversionMode":0,
+  "duration":18.2857,
+  "name":"snd_6969call",
+  "parent":{
+    "name":"Telephone Calls",
+    "path":"folders/Sounds/Sounds/Telephone Calls.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_6969call",
+  "type":1,
+  "volume":1.0,
+}

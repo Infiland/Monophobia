@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_buttonbeep",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":1,
+  "conversionMode":0,
+  "duration":0.266224,
+  "name":"snd_buttonbeep",
+  "parent":{
+    "name":"Telephone Calls",
+    "path":"folders/Sounds/Sounds/Telephone Calls.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_buttonbeep",
+  "type":0,
+  "volume":0.9,
+}

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"m_DRINK",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":256,
+  "compression":1,
+  "conversionMode":0,
+  "duration":24.005,
+  "name":"m_DRINK",
+  "parent":{
+    "name":"Music",
+    "path":"folders/Sounds/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"m_DRINK.wav",
+  "type":1,
+  "volume":1.0,
+}
