@@ -1,16 +1,16 @@
 {
   "$GMSound":"",
-  "%Name":"m_welcomehome",
+  "%Name":"m_pause",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "bitRate":192,
+  "bitRate":128,
   "compression":1,
   "conversionMode":0,
-  "duration":73.9004,
-  "name":"m_welcomehome",
+  "duration":9.639175,
+  "name":"m_pause",
   "parent":{
     "name":"Music",
     "path":"folders/Sounds/Music.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"m_welcomehome",
+  "soundFile":"m_pause.mp3",
   "type":1,
   "volume":1.0,
 }

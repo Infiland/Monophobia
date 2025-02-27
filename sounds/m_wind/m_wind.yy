@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":1,
   "conversionMode":0,
-  "duration":88.71683,
+  "duration":88.71182,
   "name":"m_wind",
   "parent":{
     "name":"Music",

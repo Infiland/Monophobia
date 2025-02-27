@@ -57,7 +57,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2023.11.1.129",
+    "IDEVersion":"2024.11.0.179",
   },
   "name":"Monophobia",
   "resources":[
@@ -159,6 +159,7 @@
     {"id":{"name":"m_goodending","path":"sounds/m_goodending/m_goodending.yy",},},
     {"id":{"name":"m_gorwancity","path":"sounds/m_gorwancity/m_gorwancity.yy",},},
     {"id":{"name":"m_monophobia","path":"sounds/m_monophobia/m_monophobia.yy",},},
+    {"id":{"name":"m_pause","path":"sounds/m_pause/m_pause.yy",},},
     {"id":{"name":"m_silentcalling","path":"sounds/m_silentcalling/m_silentcalling.yy",},},
     {"id":{"name":"m_theendoftheroad","path":"sounds/m_theendoftheroad/m_theendoftheroad.yy",},},
     {"id":{"name":"m_thewell","path":"sounds/m_thewell/m_thewell.yy",},},

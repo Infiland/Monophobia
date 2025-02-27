@@ -116,6 +116,7 @@
     {"name":"m_goodending","order":6,"path":"sounds/m_goodending/m_goodending.yy",},
     {"name":"m_gorwancity","order":3,"path":"sounds/m_gorwancity/m_gorwancity.yy",},
     {"name":"m_monophobia","order":7,"path":"sounds/m_monophobia/m_monophobia.yy",},
+    {"name":"m_pause","order":10,"path":"sounds/m_pause/m_pause.yy",},
     {"name":"m_theendoftheroad","order":5,"path":"sounds/m_theendoftheroad/m_theendoftheroad.yy",},
     {"name":"m_thewell","order":9,"path":"sounds/m_thewell/m_thewell.yy",},
     {"name":"m_welcomehome","order":4,"path":"sounds/m_welcomehome/m_welcomehome.yy",},
